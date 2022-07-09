@@ -23,6 +23,6 @@ VS Code
 # Author
 Tparfaite
 
-<https://https://github.com/Tparfaite>
+<https://github.com/Tparfaite/Apply-form/edit/develop/README.md>
 
 <parfaitetwagira@gmail.com>
