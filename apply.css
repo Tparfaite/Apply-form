@@ -1,9 +1,12 @@
 .container{
     background-color: rgb(216, 201, 184);
-    height: 500px;
-    width: 600px;
+    height: 800px;
+    width: 1000px;
     margin: auto;
+    background-image: url(logo2.png);
+    background-repeat: no-repeat;
 }
+
 .form{
     background-color: rgb(250, 250, 246);
     width: 270px;
@@ -69,6 +72,6 @@ input[type=text],input[type=email],input[type=password]{
     transition: 2s ease-in-out;
 }
 .submitted{
-    transform: translateX(0%);
+    transform: translateX(40%);
     transition: 2s ease-in-out;
 }

@@ -25,10 +25,19 @@ submit.addEventListener("click",e=>{
     congs.classList.toggle("submitted");
     if(fname.value && lname.value && email.value && password.value) {
     congs.textContent=`Congratulation ${fname.value} ${lname.value}!!! Your application is successfully received .`;
+
     }
     else {
         congs.textContent=`please fill out all the required spaces`;
+        function me(){
+            setTimeout(()=>{
+                congs.style.transform="translateY(-250%)";
+    congs.textContent=`Kindly! Refresh in order to get form to apply again!`
+            },3000);
+           
+        }
+        me()
     }
-    form.style.transform="translateX(250%)";
+    form.style.transform="translateX(350%)";
     console.log(fname.value+" "+lname.value+" "+email.value+" "+password.value);
 })
